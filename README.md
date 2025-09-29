@@ -1,0 +1,2 @@
+# studentmanagementsystem
+codes ig 
