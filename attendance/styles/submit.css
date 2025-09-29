@@ -1,0 +1,74 @@
+.blur-container {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 30px 40px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.15); /* Light transparency */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(12px); /* Main blur effect */
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.blur-container h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.blur-container label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+    color: #f0f0f0;
+}
+
+.blur-container select,
+.blur-container input[type="file"],
+.blur-container button {
+    width: 100%;
+    margin-top: 8px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.blur-container select,
+.blur-container input[type="file"] {
+    background: rgba(255, 255, 255, 0.8);
+    color: #000;
+}
+
+.blur-container button {
+    margin-top: 25px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.blur-container button:hover {
+    background-color: #0056b3;
+}
+
+.blur-container .error,
+.blur-container .success {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.blur-container .error {
+    background: rgba(255, 0, 0, 0.2);
+    color: #ffdddd;
+}
+
+.blur-container .success {
+    background: rgba(0, 128, 0, 0.2);
+    color: #ccffcc;
+}
